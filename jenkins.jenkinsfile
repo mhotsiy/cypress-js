@@ -1,0 +1,11 @@
+pipeline{
+	agent any
+
+	stages{
+		stage('Run CodeceptJS tests') {
+            steps {
+                sh( script: 'echo run tests')
+            }
+        }
+	}
+}
